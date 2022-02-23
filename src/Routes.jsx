@@ -3,6 +3,7 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Subscribe from './pages/Subscribe';
 import Panel from './pages/Panel';
+import ErrorPage from './pages/ErrorPage';
 import useData from './hooks/useData';
 
 const Auth = () => {
@@ -21,6 +22,7 @@ function RoutesApp() {
                 <Route element={<Auth />}>
                     <Route path='/panel' element={<Panel />} />
                 </Route>
+                <Route path='*' element={<ErrorPage />} />
             </Routes>
         </BrowserRouter>
     )
