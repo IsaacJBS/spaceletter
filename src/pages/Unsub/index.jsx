@@ -15,7 +15,7 @@ function Unsub() {
     const validationEmail = { resolver: yupResolver(schemaEmail) }
     const { register, handleSubmit, formState: { errors } } = useForm(validationEmail);
     const [loading, setLoading] = useState(false);
-    const [messageUnsub, setMessageUnsub] = useState(true);
+    const [messageUnsub, setMessageUnsub] = useState(false);
     async function onSubmit(data) {
         console.log(data)
         try {
