@@ -1,0 +1,15 @@
+.container-unsub{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .container-unsub img{
+    max-width: 40rem;
+} */
+
+.container-unsub h1{
+    color: #4C1B27;
+    margin-bottom: 2rem;
+}
