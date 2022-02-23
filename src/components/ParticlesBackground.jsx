@@ -8,6 +8,9 @@ function ParticlesBackground() {
                     background: {
                         color: 'black',
                     },
+                    fullScreen: {
+                        enable: true,
+                    },
                     fpsLimit: 60,
                     interactivity: {
                         detectsOn: 'canvas',

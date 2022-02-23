@@ -52,3 +52,12 @@
     justify-content: center;
     flex-direction: column;
 }
+
+@media (max-width: 425px) {
+    .input-title{
+        max-width: 30rem;
+    }
+    .input-text{
+        max-width: 30rem;
+    }
+}
