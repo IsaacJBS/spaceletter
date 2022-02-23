@@ -29,3 +29,9 @@
     color: white;
     margin-bottom: 4rem;
 }
+
+@media (max-width: 425px) {
+    .container-error{
+        max-width: 30rem;
+    }
+}
