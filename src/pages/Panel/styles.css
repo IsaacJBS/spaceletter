@@ -1,0 +1,54 @@
+.panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.panel-title{
+    margin-bottom: 1rem;
+    color: #4C1B27
+}
+
+.input-title{
+    font-family: Nunito, sans-serif;
+    padding: 0.2rem 1rem;
+    border: 1px solid #4C1B27;
+    background: none;
+    width: 40rem;
+    height: 5rem;
+    border-radius: 0.3rem;
+    color: #4C1B27;
+    font-size: 700;
+    margin-bottom: 2rem;
+}
+
+.input-text {
+    font-family: Nunito, sans-serif;
+    padding: 1rem 1rem;
+    border: 1px solid #4C1B27;
+    background: none;
+    max-width: 40rem;
+    border-radius: 0.3rem;
+    color: #4C1B27;
+    font-size: 700;
+}
+
+.input-text:focus {
+    outline: 0;
+}
+
+
+.input-title:focus {
+    outline: 0;
+}
+
+.button-panel{
+    line-height: 2rem;
+    font-style: normal;
+    margin-top: 2rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

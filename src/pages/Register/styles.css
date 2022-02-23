@@ -1,0 +1,14 @@
+.input-password{
+    display: flex;
+}
+.input-password button {
+    all: unset;
+    cursor: pointer;
+    margin-top: 0.2rem;
+    margin-left: -3rem;
+}
+
+.eye img{
+    width: 2rem;
+    filter: invert(14%) sepia(18%) saturate(2253%) hue-rotate(296deg) brightness(91%) contrast(96%);
+}

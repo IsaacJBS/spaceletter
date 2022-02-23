@@ -1,0 +1,40 @@
+.container-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-login p{
+    margin-top: 0.2rem;
+    margin-bottom: 2rem;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.button{
+    all: unset;
+    /* margin-left: 8rem; */
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4C1B27;
+    padding: 0.7rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 700;
+}
+
+.login-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-flex a{
+    margin-top: 2rem;
+    color: #4C1B27;
+}
