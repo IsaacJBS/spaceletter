@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Spaceletter 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) ![Postgres](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+A Spaceletter é uma newsletter feita com o intuito de compartilhar notícias diárias sobre astronomia. Foi feita com React e NodeJS com PostgreSQL. O fundo estrelado é dinâmico, as estrelas não têm um padrão de renderização, e também piscam um pouco. Os erros são notificados através de Toastifys. O site também está responsivo para dispositivos móveis.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O Back End foi feito usando NodeJS e Postgres, e os e-mails são enviados através do MailTrap, que é um servidor SMTP, ou seja, ele é o responsável pela entrega dos e-mails. E também é um servidor de testes, caso você fique na expectativa de que chegue um email na hora do cadastro 😅.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Spaceletter-sub](C:\Users\Isaac\Desktop\Spaceletter\Spaceletter-sub.png)
 
-### `npm run build`
+Para acessar você pode clicar [aqui](https://spaceletter.vercel.app/) 👈🏽. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## O que foi utilizado para realizar o projeto no front-end?
 
-### `npm run eject`
+React, React Hook Form, Toastify, React Router Dom v6, e Particles.JS.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Quais são as rotas?
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Login do Admin: https://spaceletter.vercel.app/login
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Login](C:\Users\Isaac\Desktop\Spaceletter\Login.png)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+### Cadastro do Admin: https://spaceletter.vercel.app/register
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Cadastro](C:\Users\Isaac\Desktop\Spaceletter\Cadastro.png)
 
-### Making a Progressive Web App
+### 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Pagina de erro caso coloque alguma rota errada:
 
-### Advanced Configuration
+O astronauta se move caso passe o mouse por cima.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![ErrorPage](C:\Users\Isaac\Desktop\Spaceletter\ErrorPage.png)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+### Painel de Administrador: https://spaceletter.vercel.app/panel
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Precisa estar autenticado para realizar o acesso.
+
+![Painel](C:\Users\Isaac\Desktop\Spaceletter\Painel.png)
+
+
+
+### Mensagens de boas vindas que o assinante recebe quando se cadastra:
+
+![Welcome](C:\Users\Isaac\Desktop\Spaceletter\Welcome.png)
+
+### Modelo de mensagem da notícia do dia:
+
+![Noticia](C:\Users\Isaac\Desktop\Spaceletter\Noticia.png)
+
+
+
+### Página para desinscrever:
+
+![Unsub](C:\Users\Isaac\Desktop\Spaceletter\Unsub.png)
