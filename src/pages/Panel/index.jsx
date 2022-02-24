@@ -1,5 +1,7 @@
 import { yupResolver } from "@hookform/resolvers/yup";
+import { useEffect } from 'react';
 import { useForm } from 'react-hook-form';
+import { useNavigate } from 'react-router-dom';
 import planet from '../../assets/planet.svg';
 import Form from '../../components/Form';
 import Loader from '../../helpers/Loader';
@@ -13,7 +15,15 @@ import './styles.css';
 function Panel() {
     const validationPanel = { resolver: yupResolver(schemaPanel) };
     const { handleSubmit, register, reset, formState: { errors } } = useForm(validationPanel);
-    const { loading, setLoading, token } = useData();
+    const { loading, setLoading, token, removeToken } = useData();
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        if(token === "jwt_expired") {
+            removeToken(token);
+            navigate("/login");
+        }
+    });
 
     async function onSubmit({ title, text }) {
         const data = { title, text }
