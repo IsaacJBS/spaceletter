@@ -47,7 +47,7 @@ function Subscribe() {
                     <div className='title'>
                         <img src={planet} alt="planeta" />
                         <h1>Se inscreva na Spaceletter</h1>
-                        <span>A sua newsletter semanal sobre astronomia</span>
+                        <span>A sua newsletter diária sobre astronomia</span>
                     </div>
                     <div >
                         <form onSubmit={handleSubmit(onSubmit)}>
