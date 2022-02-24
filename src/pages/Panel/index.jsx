@@ -1,4 +1,7 @@
+import { yupResolver } from "@hookform/resolvers/yup";
+import { useEffect } from 'react';
 import { useForm } from 'react-hook-form';
+import { useNavigate } from 'react-router-dom';
 import planet from '../../assets/planet.svg';
 import Form from '../../components/Form';
 import Loader from '../../helpers/Loader';
@@ -6,11 +9,8 @@ import ToastifyError from '../../helpers/ToastifyError';
 import ToastifySuccess from '../../helpers/ToastifySuccess';
 import useData from '../../hooks/useData';
 import { route } from '../../route';
-import { useNavigate } from 'react-router-dom'
-import './styles.css';
 import schemaPanel from '../../validations/schemaPanel';
-import { yupResolver } from "@hookform/resolvers/yup";
-import { useEffect } from 'react';
+import './styles.css';
 
 function Panel() {
     const validationPanel = { resolver: yupResolver(schemaPanel) };
