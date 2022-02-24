@@ -6,14 +6,24 @@ import ToastifyError from '../../helpers/ToastifyError';
 import ToastifySuccess from '../../helpers/ToastifySuccess';
 import useData from '../../hooks/useData';
 import { route } from '../../route';
+import { useNavigate } from 'react-router-dom'
 import './styles.css';
 import schemaPanel from '../../validations/schemaPanel';
 import { yupResolver } from "@hookform/resolvers/yup";
+import { useEffect } from 'react';
 
 function Panel() {
     const validationPanel = { resolver: yupResolver(schemaPanel) };
     const { handleSubmit, register, reset, formState: { errors } } = useForm(validationPanel);
-    const { loading, setLoading, token } = useData();
+    const { loading, setLoading, token, removeToken } = useData();
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        if(token === "jwt_expired") {
+            removeToken(token);
+            navigate("/login");
+        }
+    }, []);
 
     async function onSubmit({ title, text }) {
         const data = { title, text }
