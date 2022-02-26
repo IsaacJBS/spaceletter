@@ -40,7 +40,7 @@ React, React Hook Form, Toastify, React Router Dom v6, e Particles.JS.
 
 ### Pagina de erro caso coloque alguma rota errada:
 
-O astronauta se move caso passe o mouse por cima.
+O astronauta se move caso quando passa o mouse por cima.
 
 ![Imgur](https://i.imgur.com/tA78rc7.png)
 
