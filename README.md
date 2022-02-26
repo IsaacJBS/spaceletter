@@ -10,7 +10,7 @@ O Back End foi feito usando NodeJS e Postgres, e os e-mails são enviados atrav�
 
 
 
-![Spaceletter-sub](C:\Users\Isaac\Desktop\Spaceletter\Spaceletter-sub.png)
+![Imgur](https://i.imgur.com/TuDiZKW.png)
 
 Para acessar você pode clicar [aqui](https://spaceletter.vercel.app/) 👈🏽. 
 
@@ -28,13 +28,13 @@ React, React Hook Form, Toastify, React Router Dom v6, e Particles.JS.
 
 ### Login do Admin: https://spaceletter.vercel.app/login
 
-![Login](C:\Users\Isaac\Desktop\Spaceletter\Login.png)
+![Imgur](https://i.imgur.com/Q4wuxwC.png)
 
 
 
 ### Cadastro do Admin: https://spaceletter.vercel.app/register
 
-![Cadastro](C:\Users\Isaac\Desktop\Spaceletter\Cadastro.png)
+![Imgur](https://i.imgur.com/f7vy9pR.jpg)
 
 ### 
 
@@ -42,7 +42,7 @@ React, React Hook Form, Toastify, React Router Dom v6, e Particles.JS.
 
 O astronauta se move caso passe o mouse por cima.
 
-![ErrorPage](C:\Users\Isaac\Desktop\Spaceletter\ErrorPage.png)
+![Imgur](https://i.imgur.com/tA78rc7.png)
 
 
 
@@ -50,20 +50,20 @@ O astronauta se move caso passe o mouse por cima.
 
 Precisa estar autenticado para realizar o acesso.
 
-![Painel](C:\Users\Isaac\Desktop\Spaceletter\Painel.png)
+![Imgur](https://i.imgur.com/nUUpJYn.jpg)
 
 
 
 ### Mensagens de boas vindas que o assinante recebe quando se cadastra:
 
-![Welcome](C:\Users\Isaac\Desktop\Spaceletter\Welcome.png)
+![Imgur](https://i.imgur.com/J5AiBwz.png)
 
 ### Modelo de mensagem da notícia do dia:
 
-![Noticia](C:\Users\Isaac\Desktop\Spaceletter\Noticia.png)
+![Imgur](https://i.imgur.com/Wjf96lj.png)
 
 
 
 ### Página para desinscrever:
 
-![Unsub](C:\Users\Isaac\Desktop\Spaceletter\Unsub.png)
+![Imgur](https://i.imgur.com/av03awV.png)
