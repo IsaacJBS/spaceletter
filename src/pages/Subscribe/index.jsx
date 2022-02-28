@@ -13,7 +13,7 @@ import Loader from '../../helpers/Loader';
 
 function Subscribe() {
     const validationEmail = { resolver: yupResolver(schemaEmail) }
-    const { register, handleSubmit, formState: { errors } } = useForm(validationEmail);
+    const { register, reset, handleSubmit, formState: { errors } } = useForm(validationEmail);
     const [loading, setLoading] = useState(false);
     async function onSubmit(data) {
         try {
@@ -34,6 +34,7 @@ function Subscribe() {
                 ToastifyError(responseApi)
             }
             setLoading(false);
+            reset({ email: "" })
         } catch (error) {
             ToastifyError(error.message)
             setLoading(false);
