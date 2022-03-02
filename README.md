@@ -8,13 +8,13 @@ A Spaceletter é uma newsletter feita com o intuito de compartilhar notícias di
 
 O Back End foi feito usando NodeJS e Postgres, e os e-mails são enviados através do MailTrap, que é um servidor SMTP, ou seja, ele é o responsável pela entrega dos e-mails. E também é um servidor de testes, caso você fique na expectativa de que chegue um email na hora do cadastro 😅.
 
+Para acessar a aplicação você pode clicar [aqui](https://spaceletter.vercel.app/) 👈🏽. 
+
 Para acessar a documentação do Back End você pode clicar [aqui](https://github.com/IsaacJBS/spaceletter-api) 👈🏽.
 
 
 
 ![Imgur](https://i.imgur.com/TuDiZKW.png)
-
-Para acessar você pode clicar [aqui](https://spaceletter.vercel.app/) 👈🏽. 
 
 
 
