@@ -17,7 +17,6 @@ function Unsub() {
     const [loading, setLoading] = useState(false);
     const [messageUnsub, setMessageUnsub] = useState(false);
     async function onSubmit(data) {
-        console.log(data)
         try {
             setLoading(true);
             const requestEmail = await fetch(`${route}/unsub`, {
