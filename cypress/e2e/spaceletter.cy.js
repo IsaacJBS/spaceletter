@@ -19,3 +19,14 @@ describe('Subscription in spaceletter', () => {
     cy.contains("Email já cadastrado")
   });
 })
+
+describe("Admin register", () => {
+  it('should return an error because form is empty', () => {
+     cy.visit('/register')
+
+    cy.get('form').submit()
+
+    cy.contains("Por favor, insira um e-mail")
+    cy.contains("Por favor, insira uma senha")
+  });
+})
