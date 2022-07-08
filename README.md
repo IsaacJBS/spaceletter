@@ -4,7 +4,7 @@
 
 
 
-A Spaceletter é uma newsletter feita com o intuito de compartilhar notícias diárias sobre astronomia. Foi feita com React e NodeJS com PostgreSQL. O fundo estrelado é dinâmico, as estrelas não têm um padrão de renderização, e também piscam um pouco. Os erros são notificados através de Toastifys. O site também está responsivo para dispositivos móveis.
+A Spaceletter é uma newsletter feita com o intuito de compartilhar notícias diárias sobre astronomia. Foi feita com React, Cypress para testes de integração e NodeJS com PostgreSQL. O fundo estrelado é dinâmico, as estrelas não têm um padrão de renderização, e também piscam um pouco. Os erros são notificados através de Toastifys. O site também está responsivo para dispositivos móveis.
 
 O Back End foi feito usando NodeJS e Postgres, e os e-mails são enviados através do MailTrap, que é um servidor SMTP, ou seja, ele é o responsável pela entrega dos e-mails. E também é um servidor de testes, caso você fique na expectativa de que chegue um email na hora do cadastro 😅.
 
