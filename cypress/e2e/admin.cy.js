@@ -34,7 +34,7 @@ describe("Admin register", () => {
   });
 })
 
-describe("Admin login", () => {
+describe("Admin login and send email", () => {
   it('should redirect to login', () => {
     cy.visit("/login")
     
@@ -51,19 +51,20 @@ describe("Admin login", () => {
     cy.get('form').within(() => {
       cy.get("input").first().type("admin@gmail.com")
       cy.get("#pass").type("12344567")
-
-
-      cy.get("button").contains("Enviar").click()
-    })
+    }).submit()
 
     cy.contains("Login efetuado com sucesso")
+    cy.contains("Painel")
   });
 })
 
-describe("Admin panel", () => {
-  it('should redirect to panel', () => {
-    cy.visit("/panel")
+describe("Send newsletter", () => {
+  it('should return error because form is empty', () => {
+    cy.get('form').within(() => {
+      cy.get("input").first().type("Cypress")
+      cy.get("textarea").type("Iniciando testes com cypress")
 
-    cy.contains("Painel")
+    }).submit()
+    cy.contains("Newsletter enviada com sucesso")
   });
 })
