@@ -39,3 +39,10 @@ describe("Unsubscription flow", () => {
     cy.contains("O sinal da sua base foi desligado")
   });
 })
+
+describe("Error page", () => {
+  it('should redirect to error page', () => {
+    cy.visit("/error")
+    cy.contains("Ooops, página não encontrada")
+  });
+})
